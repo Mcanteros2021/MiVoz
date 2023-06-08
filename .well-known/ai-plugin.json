@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Audio_to_file",
+    "name_for_model": "Audio_to_file",
+    "description_for_human": "Audio file from a response from ChatGPT",
+    "description_for_model": "Audio file from a response from ChatGPT",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3000/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:3000/logo.png",
+    "contact_email": "support@yourdomain.com",
+    "legal_info_url": "http://www.yourdomain.com/legal"
+}
